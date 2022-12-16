@@ -464,6 +464,9 @@ textarea:focus+label{
     background: linear-gradient(283.44deg, #6525DC 0.03%, #4B4DDE 72.58%);
 
 }
+.col-l:nth-child(3) p{
+    padding: 10px 0;
+}  
 
 /* cursor movement style  */
 
@@ -639,12 +642,28 @@ textarea:focus+label{
         text-align: center;
         justify-content: space-between;
     }
+    .col-l h1::after{
+        content: "";
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        height: 5px;
+        width: 110px;
+        background: linear-gradient(283.44deg, #6525DC 0.03%, #4B4DDE 72.58%);
+
+    }
     .col-l:nth-child(3) {
         padding-top: 50px;
     }
     .col-l:nth-child(2) {
         padding-top: 50px;
     }
-    
+    .col-l:nth-child(2){
+        padding-left: 0%;
+    }
+    .col-l:nth-child(3) p{
+        padding: 10px 0;
+    }   
 }
 
