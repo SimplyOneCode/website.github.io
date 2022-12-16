@@ -635,7 +635,6 @@ textarea:focus+label{
     .row-l{
         display: flex;
         flex-direction: column;
-        background: linear-gradient(283.44deg, #6525DC 0.03%, #4B4DDE 72.58%);
         padding: 100px 5%;
         text-align: center;
         justify-content: space-between;
