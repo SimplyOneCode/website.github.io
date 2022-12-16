@@ -425,7 +425,7 @@ textarea:focus+label{
 .row-l{
     display: flex;
     background-color: #192233;
-    padding: 100px 5%;
+    padding: 90px 5%;
     justify-content: space-between;
 }
 .col-l{
